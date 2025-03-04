@@ -8,7 +8,6 @@ use Joli\JoliNotif\DefaultNotifier;
 
 class Notifications implements NotificationInterface
 {
-  private const TITLE = "Attenzione found a tag.";
 
   public function notify(string $body): void
   {
